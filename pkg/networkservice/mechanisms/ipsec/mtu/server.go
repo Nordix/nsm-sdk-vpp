@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"git.fd.io/govpp.git/api"
+	"go.fd.io/govpp/api"
 	"google.golang.org/protobuf/types/known/emptypb"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"

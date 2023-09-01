@@ -19,11 +19,11 @@ package unnumbered
 import (
 	"context"
 
-	"github.com/edwarnicke/govpp/binapi/interface_types"
+	"github.com/networkservicemesh/govpp/binapi/interface_types"
 	"github.com/pkg/errors"
 
-	"git.fd.io/govpp.git/api"
 	"github.com/golang/protobuf/ptypes/empty"
+	"go.fd.io/govpp/api"
 	"google.golang.org/grpc"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"

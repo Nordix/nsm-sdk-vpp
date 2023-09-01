@@ -19,7 +19,7 @@ package mtu
 import (
 	"context"
 
-	"git.fd.io/govpp.git/api"
+	"go.fd.io/govpp/api"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 

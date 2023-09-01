@@ -19,7 +19,7 @@ package memif
 import (
 	"context"
 
-	"github.com/edwarnicke/govpp/binapi/memif"
+	"github.com/networkservicemesh/govpp/binapi/memif"
 
 	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
 )

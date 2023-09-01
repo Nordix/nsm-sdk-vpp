@@ -21,10 +21,10 @@ import (
 	"io"
 	"net"
 
-	"git.fd.io/govpp.git/api"
-	interfaces "github.com/edwarnicke/govpp/binapi/interface"
-	"github.com/edwarnicke/govpp/binapi/ip"
+	interfaces "github.com/networkservicemesh/govpp/binapi/interface"
+	"github.com/networkservicemesh/govpp/binapi/ip"
 	"github.com/pkg/errors"
+	"go.fd.io/govpp/api"
 
 	"github.com/networkservicemesh/sdk-vpp/pkg/tools/types"
 )

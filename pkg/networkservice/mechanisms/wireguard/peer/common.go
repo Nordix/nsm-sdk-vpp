@@ -22,12 +22,12 @@ import (
 	"context"
 	"time"
 
-	"git.fd.io/govpp.git/api"
 	"github.com/pkg/errors"
+	"go.fd.io/govpp/api"
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
-	"github.com/edwarnicke/govpp/binapi/ip_types"
-	"github.com/edwarnicke/govpp/binapi/wireguard"
+	"github.com/networkservicemesh/govpp/binapi/ip_types"
+	"github.com/networkservicemesh/govpp/binapi/wireguard"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	wireguardMech "github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/wireguard"

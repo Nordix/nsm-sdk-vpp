@@ -20,9 +20,9 @@ import (
 	"context"
 	"net"
 
-	"git.fd.io/govpp.git/api"
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/pkg/errors"
+	"go.fd.io/govpp/api"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	ipsecMech "github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/ipsec"

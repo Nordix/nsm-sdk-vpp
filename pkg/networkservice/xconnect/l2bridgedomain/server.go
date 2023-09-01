@@ -19,7 +19,7 @@ package l2bridgedomain
 import (
 	"context"
 
-	"git.fd.io/govpp.git/api"
+	"go.fd.io/govpp/api"
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/pkg/errors"

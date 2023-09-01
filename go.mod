@@ -3,14 +3,13 @@ module github.com/networkservicemesh/sdk-vpp
 go 1.18
 
 require (
-	git.fd.io/govpp.git v0.3.6-0.20210927044411-385ccc0d8ba9
 	github.com/cilium/ebpf v0.10.0
-	github.com/edwarnicke/govpp v0.0.0-20230130211138-14ef5d20b1d0
 	github.com/edwarnicke/serialize v1.0.7
 	github.com/golang/protobuf v1.5.2
 	github.com/google/uuid v1.2.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/networkservicemesh/api v1.7.2-0.20230123083145-4a6c3ec589e1
+	github.com/networkservicemesh/govpp v0.0.0-20230831054716-9ebef2743806
 	github.com/networkservicemesh/sdk v0.5.1-0.20230518132831-ad70c1f00af9
 	github.com/networkservicemesh/sdk-kernel v0.0.0-20230518133151-7d7d6a988a0a
 	github.com/pkg/errors v0.9.1
@@ -18,6 +17,7 @@ require (
 	github.com/thanhpk/randstr v1.0.4
 	github.com/vishvananda/netlink v1.2.1-beta.2.0.20220630165224-c591ada0fb2b
 	github.com/vishvananda/netns v0.0.0-20211101163701-50045581ed74
+	go.fd.io/govpp v0.8.0
 	go.uber.org/goleak v1.1.12
 	golang.org/x/sys v0.5.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20200609130330-bd2cb7843e1b

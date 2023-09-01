@@ -19,7 +19,7 @@ package types
 import (
 	"net"
 
-	"github.com/edwarnicke/govpp/binapi/ethernet_types"
+	"github.com/networkservicemesh/govpp/binapi/ethernet_types"
 )
 
 // ToVppMacAddress - converts *net.HardwareAddr to ethernet_types.MacAddress

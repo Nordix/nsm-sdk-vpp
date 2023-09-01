@@ -24,10 +24,10 @@ import (
 	"strings"
 	"time"
 
-	"git.fd.io/govpp.git/api"
+	"go.fd.io/govpp/api"
 
-	interfaces "github.com/edwarnicke/govpp/binapi/interface"
-	"github.com/edwarnicke/govpp/binapi/interface_types"
+	interfaces "github.com/networkservicemesh/govpp/binapi/interface"
+	"github.com/networkservicemesh/govpp/binapi/interface_types"
 	"github.com/pkg/errors"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"

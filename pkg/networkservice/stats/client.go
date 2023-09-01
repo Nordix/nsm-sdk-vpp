@@ -25,8 +25,8 @@ import (
 	"context"
 	"sync"
 
-	"git.fd.io/govpp.git/core"
 	"github.com/golang/protobuf/ptypes/empty"
+	"go.fd.io/govpp/core"
 	"google.golang.org/grpc"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"

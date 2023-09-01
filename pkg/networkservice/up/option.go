@@ -19,7 +19,7 @@ package up
 import (
 	"context"
 
-	"github.com/edwarnicke/govpp/binapi/interface_types"
+	"github.com/networkservicemesh/govpp/binapi/interface_types"
 )
 
 type options struct {

@@ -19,7 +19,7 @@ package loopback
 import (
 	"context"
 
-	"github.com/edwarnicke/govpp/binapi/interface_types"
+	"github.com/networkservicemesh/govpp/binapi/interface_types"
 
 	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
 )
