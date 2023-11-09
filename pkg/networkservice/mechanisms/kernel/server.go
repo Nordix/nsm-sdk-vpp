@@ -20,20 +20,14 @@
 package kernel
 
 import (
-	"os"
-
 	"go.fd.io/govpp/api"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/mechanisms/kernel/kerneltap"
 	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/mechanisms/kernel/kernelvethpair"
 )
 
 // NewServer return a NetworkServiceServer chain element that correctly handles the kernel Mechanism
 func NewServer(vppConn api.Connection) networkservice.NetworkServiceServer {
-	if _, err := os.Stat(vnetFilename); err == nil {
-		return kerneltap.NewServer(vppConn)
-	}
 	return kernelvethpair.NewServer(vppConn)
 }
